@@ -1,0 +1,69 @@
+body{
+    text-align: center;
+    margin:0;
+    padding-top:650px;
+    background: linear-gradient(#42eff5 0%,#f54242 100%);
+}
+h1{
+    font-size:40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#name{
+    font-family: 'Allerta Stencil', sans-serif;
+}
+h2{
+    font-size:30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#profile{
+    border-radius:50%;
+}
+#welcome{
+    position: absolute;
+    background: linear-gradient(#f54242 0%,#42eff5 100%);
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: table;    
+}
+.menu{
+    position: fixed;
+    background: white;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+    margin-top: 0;
+    
+}
+.link a{
+    text-decoration: none;
+    color: tomato;
+}
+.link{
+    display: inline;   
+    padding: 10px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.link:hover{
+    font-size: 25px;
+    text-decoration: underline;
+}
+#bio{
+    margin-top:20px;
+}
+.inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+#writings a{
+font-size:20px;
+text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.contact_1 a{
+    color: white;
+    text-decoration: none;
+}
